@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TripList</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="spltext">Make a</string>
+    <string name="splashtext">And Start Your Journey</string>
+    <string name="title">Trip List</string>
+    <string name="subtitle">Want To Visite</string>
+    <string name="create">Create Profile</string>
+    <string name="detail">Detail Information</string>
+    <string name="update">Update Profile</string>
+    
+    <string name="name">Name</string>
+    <string name="purpose">Purpose</string>
+    <string name="address">Address</string>
+    <string name="district">District</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="start">Start Date</string>
+    <string name="end">End Date</string>
+    <string name="time">Time</string>
+    <string name="note">Note</string>
+    <string name="photo">Photo</string>
+    <string name="take">Take Photo If You Want</string>
+    <string name="save">Save</string>
+    
+    <string name="addmore">Add More</string>
+    <string name="home">Home</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="showmap">Show in Map</string>
+    
+    <string name="insert">Data inserted</string>
+    <string name="fail">Data insertion failed</string>
+    <string name="updatecom">Data Updated</string>
+    <string name="updateprob">Data Upgradetion failed</string>
+    <string name="form">Complete the form correctly</string>
+    <string name="condition">Purpose should be at least 25 character</string>
+    <string name="gps">GPS signal not found</string>
+    <string name="map">Sorry! unable to create maps</string>
+    <string name="me">ME</string>
+    <string name="camerachack">Sorry! Your device doesn\'t support camera</string>
+    <string name="imagecaptured">Image Captured</string>
+    <string name="imagecancled">cancelled image capture</string>
+    <string name="imagefailed">Sorry! Failed to capture image</string>
+
+</resources>
