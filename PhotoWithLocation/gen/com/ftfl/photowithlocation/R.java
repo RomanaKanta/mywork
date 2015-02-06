@@ -1656,7 +1656,6 @@ containing a value of this type.
         public static final int bretr=0x7f050043;
         public static final int btnphoto=0x7f050040;
         public static final int btnreg=0x7f050041;
-        public static final int btnsave=0x7f050049;
         public static final int checkbox=0x7f050029;
         public static final int collapseActionView=0x7f05000f;
         public static final int decor_content_parent=0x7f05002f;
@@ -1691,6 +1690,7 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f05001d;
         public static final int radio=0x7f05002b;
         public static final int remark=0x7f050047;
+        public static final int save=0x7f050049;
         public static final int search_badge=0x7f050035;
         public static final int search_bar=0x7f050034;
         public static final int search_button=0x7f050036;

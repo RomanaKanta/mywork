@@ -15,7 +15,8 @@
         android:id="@+id/showimg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/app_name" />
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_launcher" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,12 +44,14 @@
         <TextView
             android:id="@+id/discrip"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content" 
+            android:text="discription" />
 
         <TextView
             android:id="@+id/distance"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="distance"  />
     </LinearLayout>
 
 </LinearLayout>
