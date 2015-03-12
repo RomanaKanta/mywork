@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/dietchart"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000cc" />
+
+    <TextView
+        android:id="@+id/viewall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="-30dp"
+        android:gravity="right"
+        android:text="@string/viewall"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#cc0000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/today"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#009999" />
+
+    <ListView
+        android:id="@+id/todaydiet"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:layout_weight="2"
+        android:background="#e8fbc4" >
+    </ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/weekly"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#009999"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/weekly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="2"
+        android:background="#00ffcc"
+        android:visibility="gone" >
+    </ListView>
+
+</LinearLayout>

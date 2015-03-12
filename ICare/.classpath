@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="F:/adt-bundle-windows-x86-20140702/adt-bundle-windows-x86-20140702/sdk/platforms/android-21/android.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/kantaspace/appcompat_v7/libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="F:/kantaspace/appcompat_v7/libs/android-support-v7-appcompat.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/kantaspace/ICare/libs/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="F:/kantaspace/ICare/libs/universal-image-loader-1.9.3-with-sources.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
