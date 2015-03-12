@@ -112,7 +112,7 @@ public class MapActivity extends FragmentActivity {
 				.newLatLng(mCurrentPosition));
 
 		// Zoom in the Google Map
-		mGoogleMap.animateCamera(CameraUpdateFactory.zoomTo(100));
+		mGoogleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(mLatitude, mLongitude), 12.0f));
 	} catch (Exception e) {
 		e.printStackTrace();
 	}
