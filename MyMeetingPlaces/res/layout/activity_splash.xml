@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spl"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ftfl.mymeetingplaces.SplashActivity" >
+    
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff"
+        android:text="@string/splfooter" />
+
+    <TextView
+        android:id="@+id/splashtit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/splashtitl"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="109dp"
+        android:text="@string/spltit1"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/splashtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/footer"
+        android:layout_below="@+id/splashtitl"
+        android:layout_marginTop="23dp"
+        android:text="@string/spltit3"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/splashtitl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/splashtitle"
+        android:layout_below="@+id/splashtit"
+        android:layout_marginRight="47dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/spltit2"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+</RelativeLayout>
